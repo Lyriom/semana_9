@@ -6,10 +6,10 @@ int main()
 {
     int filas, columnas;
 
-    printf("Ingrese el numero de filas de la matriz: ");
+    printf("Ingrese el numero de filas de la matriz que desea: ");
     scanf("%d", &filas);
 
-    printf("Ingrese el numero de columnas de la matriz: ");
+    printf("Ingrese el numero de columnas de la matriz que desea: ");
     scanf("%d", &columnas);
     // Crear la matriz
     int matriz[filas][columnas];
